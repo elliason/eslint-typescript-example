@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitOverride": true,
+        "noFallthroughCasesInSwitch": true,
+        "lib": ["dom", "esnext"],
+        "strict": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "~utils/*": ["./utils/*"]
+        }
+    },
+    "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
+    "exclude": ["node_modules"]
+}
